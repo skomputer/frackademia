@@ -33,10 +33,10 @@
 var fieldMap = {
   'title': 'Title',
   'date': 'Date',
-  'org': 'Issuing Org',
+  'org': 'Issuing Organization',
   'org_type': 'Type of Organization Issuing',
   'topic': 'Topic',
-  'peer_reviewed': 'Peer reviewed',
+  'peer_reviewed': 'Peer Reviewed',
   'ties_strength': 'Strength of Industry Ties',
   'ties_type': 'Type of Industry Ties',
   'duplicate': 'Duplicate?',
