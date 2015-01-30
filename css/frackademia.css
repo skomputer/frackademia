@@ -1,0 +1,51 @@
+body {
+  margin: 20px;
+}
+
+#datatable-filters {
+  /*padding: 10px; */
+  /*background-color: #eee; */
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+#datatable-filters select {
+  margin-right: 10px;
+}
+
+html #datatable {
+  width: 100%;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+html #datatable_wrapper {
+  width: 100%;
+}
+
+#datatable_wrapper input[type="search"] {
+  width: 300px;
+}
+
+html #datatable_wrapper .pagination li {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+td.details-control {
+  background: url('images/details_open.png') no-repeat center center;
+  cursor: pointer;
+}
+tr.shown td.details-control {
+  background: url('images/details_close.png') no-repeat center center;
+}
+
+.details-table td {
+  height: 30px;
+}
+
+.details-table td:first-child {
+  font-weight: bold;
+  text-align: right;
+  width: 120px;
+}
